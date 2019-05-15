@@ -1,0 +1,28 @@
+{
+    "name": "zhangbingliang\/country-code-converter",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tony",
+            "email": "work@iftony.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.1",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhangbingliang\\CountryCodeConverter\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhangbingliang\\CountryCodeConverter\\CountryCodeServiceProvider",
+                "Zhangbingliang\\CountryCodeConverter\\StateCodeServiceProvider"
+            ]
+        }
+    }
+}

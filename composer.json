@@ -9,8 +9,6 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^8.1",
-        "mockery/mockery": "^1.2"
     },
     "autoload": {
         "psr-4": {
@@ -24,5 +22,9 @@
                 "Zhangbingliang\\CountryCodeConverter\\StateCodeServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^8.1"
     }
 }
